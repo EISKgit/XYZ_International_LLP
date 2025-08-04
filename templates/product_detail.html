@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row">
+    <div class="col-md-5">
+        <img src="{{ product.image }}" alt="{{ product.name }}" class="img-fluid rounded">
+    </div>
+    <div class="col-md-7">
+        <h1>{{ product.name }}</h1>
+        <p class="text-muted">{{ product.category }}</p>
+        <p>{{ product.description }}</p>
+        <h3 class="text-primary">${{ product.price }}</h3>
+        <p>Stock: <strong>{{ product.stock }}</strong></p>
+        <p>Rating: ⭐ {{ product.rating }}</p>
+        <button class="btn btn-success">Add to Cart</button>
+    </div>
+</div>
+
+<hr>
+
+
+<script>
+    async function askProductAI() {
+        let query = document.getElementById('product-ai-query').value;
+        let answerBox = document.getElementById('product-ai-answer');
+
+        let res = await fetch('/api/ai/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ query: `About ${"{{ product.name }}"}: ${query}` })
+        });
+        let data = await res.json();
+        answerBox.innerText = data.answer;
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,230 @@
+[
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Apple MacBook Air M2",
+            "description": "13.6-inch Liquid Retina Display, Apple M2 chip, 8GB RAM, 256GB SSD",
+            "price": 1199,
+            "category": "Laptops",
+            "stock": 10,
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-m2",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Dell XPS 15",
+            "description": "15.6-inch 4K Display, Intel i7, 16GB RAM, 512GB SSD, NVIDIA RTX 3050",
+            "price": 1899,
+            "category": "Laptops",
+            "stock": 8,
+            "image": "https://i.dell.com/sites/imagecontent/products/PublishingImages/xps-15-9520-laptop/xps-15-9520-laptop-gallery-1.jpg",
+            "rating": 4.7
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Lenovo ThinkPad X1 Carbon",
+            "description": "14-inch FHD, Intel i7, 16GB RAM, 512GB SSD, Business Laptop",
+            "price": 1699,
+            "category": "Laptops",
+            "stock": 5,
+            "image": "https://www.lenovo.com/medias/thinkpad-x1-carbon-gen10-gallery-1.jpg",
+            "rating": 4.6
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Samsung Galaxy S23 Ultra",
+            "description": "6.8-inch AMOLED, Snapdragon 8 Gen 2, 12GB RAM, 256GB Storage",
+            "price": 1199,
+            "category": "Mobiles",
+            "stock": 15,
+            "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-ultra-5g-sm-s918bzgcins-534023777",
+            "rating": 4.9
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "iPhone 15 Pro Max",
+            "description": "6.7-inch Super Retina XDR, A17 Pro chip, 256GB Storage",
+            "price": 1399,
+            "category": "Mobiles",
+            "stock": 20,
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-max-finish-select-202309-6-1inch-blue-titanium",
+            "rating": 4.9
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Google Pixel 8 Pro",
+            "description": "6.7-inch LTPO OLED, Google Tensor G3, 12GB RAM, 256GB Storage",
+            "price": 999,
+            "category": "Mobiles",
+            "stock": 12,
+            "image": "https://store.google.com/product/images/pixel_8_pro_listing.jpg",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Sony WH-1000XM5",
+            "description": "Wireless Noise Cancelling Over-Ear Headphones, 30h Battery",
+            "price": 399,
+            "category": "Audio",
+            "stock": 25,
+            "image": "https://m.media-amazon.com/images/I/61+fi0TJ9aL._AC_SX679_.jpg",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Bose QuietComfort Earbuds II",
+            "description": "True Wireless Noise Cancelling Earbuds, 6h Battery, Bluetooth 5.3",
+            "price": 299,
+            "category": "Audio",
+            "stock": 30,
+            "image": "https://m.media-amazon.com/images/I/51x1K+88b9L._AC_SX679_.jpg",
+            "rating": 4.7
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Sony PlayStation 5",
+            "description": "Next-gen gaming console with Ultra HD Blu-ray, 825GB SSD",
+            "price": 499,
+            "category": "Gaming",
+            "stock": 10,
+            "image": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX679_.jpg",
+            "rating": 4.9
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Xbox Series X",
+            "description": "Next-gen gaming console, 1TB SSD, 4K UHD Blu-ray",
+            "price": 499,
+            "category": "Gaming",
+            "stock": 8,
+            "image": "https://m.media-amazon.com/images/I/51kL1ZgZxEL._AC_SX679_.jpg",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Nikon Z6 II",
+            "description": "Full-frame Mirrorless Camera, 24.5MP, 4K UHD Video",
+            "price": 1999,
+            "category": "Cameras",
+            "stock": 6,
+            "image": "https://m.media-amazon.com/images/I/81MxHYxjZHL._AC_SX679_.jpg",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Canon EOS R5",
+            "description": "Full-frame Mirrorless Camera, 45MP, 8K Video",
+            "price": 3899,
+            "category": "Cameras",
+            "stock": 4,
+            "image": "https://m.media-amazon.com/images/I/81Wx8-HmYBL._AC_SX679_.jpg",
+            "rating": 4.9
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Apple iPad Pro 12.9",
+            "description": "M2 chip, 12.9-inch Liquid Retina XDR display, 256GB Storage",
+            "price": 1199,
+            "category": "Tablets",
+            "stock": 10,
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-2022",
+            "rating": 4.9
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Samsung Galaxy Tab S9 Ultra",
+            "description": "14.6-inch AMOLED, Snapdragon 8 Gen 2, 256GB Storage",
+            "price": 1199,
+            "category": "Tablets",
+            "stock": 8,
+            "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-x910nzaains/gallery/in-galaxy-tab-s9-ultra",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "DJI Mini 4 Pro",
+            "description": "4K/60fps camera drone, 34-min flight time, obstacle avoidance",
+            "price": 759,
+            "category": "Drones",
+            "stock": 12,
+            "image": "https://m.media-amazon.com/images/I/61P7mlBzjjL._AC_SX679_.jpg",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "GoPro HERO11 Black",
+            "description": "5.3K60 Ultra HD Action Camera, Waterproof 33ft",
+            "price": 399,
+            "category": "Cameras",
+            "stock": 15,
+            "image": "https://m.media-amazon.com/images/I/71vvXGmdKWL._AC_SX679_.jpg",
+            "rating": 4.7
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Apple Watch Ultra",
+            "description": "49mm Titanium Case, GPS + Cellular, Ocean Band",
+            "price": 799,
+            "category": "Wearables",
+            "stock": 18,
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-ultra-hero",
+            "rating": 4.9
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Samsung Galaxy Watch6 Classic",
+            "description": "47mm, AMOLED, Bluetooth, GPS, Black",
+            "price": 399,
+            "category": "Wearables",
+            "stock": 20,
+            "image": "https://images.samsung.com/is/image/samsung/p6pim/in/galaxy-watch6-classic",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "fields": {
+            "name": "Fitbit Charge 6",
+            "description": "Fitness Tracker with GPS, Heart Rate, Sleep Tracking",
+            "price": 159,
+            "category": "Wearables",
+            "stock": 25,
+            "image": "https://m.media-amazon.com/images/I/71zH5Ap5M3L._AC_SX679_.jpg",
+            "rating": 4.6
+        }
+    }
+]
