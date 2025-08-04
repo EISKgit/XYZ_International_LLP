@@ -10,19 +10,19 @@ The platform is designed to be clean, fast, and user-friendly.
 ---
 
 ##  Key Features
-- Product Catalog** – View products with images, prices, and ratings.  
-- Filtering & Sorting** – Filter by category and sort by price or rating.  
-- Bulk Product Upload** – Add multiple products at once with real image links.  
-- AI Chatbot** – Helps users with product information and answers general questions.  
-- Responsive Design** – Optimized for desktops and mobiles.
+- Product Catalog – View products with images, prices, and ratings.  
+- Filtering & Sorting – Filter by category and sort by price or rating.  
+- Bulk Product Upload – Add multiple products at once with real image links.  
+- AI Chatbot – Helps users with product information and answers general questions.  
+- Responsive Design – Optimized for desktops and mobiles.
 
 ---
 
 ## 🛠 Technology Stack
-- Backend** – Django, Django REST Framework  
-- AI Layer** – LangChain + Groq API  
-- Frontend** – HTML, CSS, Bootstrap, JavaScript  
-- Database** – SQLite (default, can be changed)  
+- Backend – Django, Django REST Framework  
+- AI Layer – LangChain + Groq API  
+- Frontend – HTML, CSS, Bootstrap, JavaScript  
+- Database – SQLite (default, can be changed)  
 
 ---
 
