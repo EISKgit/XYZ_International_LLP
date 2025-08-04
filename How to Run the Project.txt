@@ -1,0 +1,28 @@
+How to Run the Project
+
+1. Clone the repository
+  git clone https://github.com/your-username/your-repo-name.git
+  cd your-repo-name
+
+2. Create and activate a virtual environment
+  python -m venv venv
+  source venv/bin/activate   # On macOS/Linux  
+  venv\Scripts\activate      # On Windows
+
+3. Install dependencies
+    pip install django langchain langchain-groq python-dotenv
+
+4. Set up environment variables
+  Create a .env file in the project root.
+  Add your API keys, database settings, etc.
+
+5. Apply migrations
+  python manage.py migrate
+
+6. Run the development server
+  python manage.py runserver
+
+7. Access the app
+  Open http://127.0.0.1:8000/ in your browser.
+
+
